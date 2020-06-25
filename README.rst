@@ -27,7 +27,7 @@ Install
 -------
 
 
-``pip install -e .``
+``pip install git+git://github.com/Svtter/pyfmt.git#egg=pyfmt``
 
 
 Usage
