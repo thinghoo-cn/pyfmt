@@ -27,13 +27,13 @@ Install
 -------
 
 
-`pip install -e .`
+``pip install -e .``
 
 
 Usage
 -----
 
-`pyfmt --folder [folder_name]`
+``pyfmt --folder [folder_name]``
 
 
 Features
