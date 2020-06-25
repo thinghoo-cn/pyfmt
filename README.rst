@@ -23,6 +23,19 @@ Format code use black, autoflake, isort
 * Documentation: https://pyfmt.readthedocs.io.
 
 
+Install
+-------
+
+
+`pip install -e .`
+
+
+Usage
+-----
+
+`pyfmt --folder [folder_name]`
+
+
 Features
 --------
 
