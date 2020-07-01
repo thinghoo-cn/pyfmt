@@ -7,13 +7,18 @@ from .pyfmt import fmt
 
 
 @click.command()
-@click.option("--folder", prompt="format folder", help="The folder to format")
-def main(folder: str):
+@click.argument("fmt_folder")
+@click.option("--folder", help="The folder to format")
+def main(folder: str, fmt_folder: str):
     """Console script for pyfmt."""
     click.echo("Formating ... ")
     click.echo("See click documentation at https://click.palletsprojects.com/")
 
-    fmt(folder)
+    if fmt_folder:
+        fmt(fmt_folder)
+    else:
+        fmt(folder)
+
     return 0
 
 
