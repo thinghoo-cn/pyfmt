@@ -33,7 +33,7 @@ Install
 Usage
 -----
 
-``pyfmt --folder [folder_name]``
+``pyfmt --folder [folder_name]`` or ``pyfmt [folder_name]``
 
 
 Features
