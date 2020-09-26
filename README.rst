@@ -27,7 +27,7 @@ Install
 -------
 
 
-``pip install git+git://github.com/Svtter/pyfmt.git#egg=pyfmt``
+``pip install pyfmt-svtter``
 
 
 Usage

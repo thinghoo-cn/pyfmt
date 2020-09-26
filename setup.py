@@ -42,7 +42,7 @@ setup(
     long_description=readme + '\n\n' + history,
     include_package_data=True,
     keywords='pyfmt',
-    name='pyfmt',
+    name='pyfmt-svtter',
     packages=find_packages(include=['pyfmt', 'pyfmt.*']),
     setup_requires=setup_requirements,
     test_suite='tests',
